@@ -1,0 +1,4 @@
+--global : sistemdeki kullanıcı anlamına gelir.
+pwd : Mevcut dosya konumunu gösterir.
+ls : Mevcut dosya konumundaki dosyaları liste halinde gösterir.
+-a : Gizli dosyaları listelemek için kullanılır.
