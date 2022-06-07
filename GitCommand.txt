@@ -6,3 +6,5 @@ add . : Tüm dosyaları git geçiş bölgesine gönderirir.
 commit -m 'Name': Eklenen dosyaları repoya kaydeder. 
 log : Gönderilen commitleri kim tarafından ne zaman gönderildiğini gösterir.
 status : Geçiş bölgesine gönderilen veya dizinde gönderilmeyen yeni dosyalar var ise onları gösterir.
+diff : Dosyada yapılan değişiklikleri satır satır gösterir.
+diff ..staged : Staged area'ya gönderilen dosyaların git reposundaki dosyalar ile arasındaki farkları gösterir.
