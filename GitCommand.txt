@@ -12,4 +12,5 @@ rm -DosyaAdı- : Dosyayı silmek için commit etmeye hazır hale getirir.
 rm -r -KlasörAdı- : Klasörün içinde bulunan dosyaları ve klasörü siler.
 mv : Dosyanın adını değiştirmek için dosya adını yazdıktan sonra yeni dosya adı yazılır. Dosyayı başka bir klasöre taşımak için ise dosya adından sonra klasör/ şeklinde klasör adı yazılır.
 checkout -- veya restore : Çalışma dizininde yapılan değişikliği geri almak için yapılır.
-restore --staged : Staged area'ya gönderilen dosyayı geri alır.
+checkout -commitpath- -- . : Eski versiyondaki tüm dosyaları getirir.
+ 
