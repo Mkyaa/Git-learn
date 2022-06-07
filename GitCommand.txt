@@ -2,3 +2,6 @@
 pwd : Mevcut dosya konumunu gösterir.
 ls : Mevcut dosya konumundaki dosyaları liste halinde gösterir.
 -a : Gizli dosyaları listelemek için kullanılır.
+add . : Tüm dosyaları git repoya göönderirir.
+commit -m 'Name': Eklenen dosyaları repoya kaydeder. 
+log : Gönderilen commitleri kim tarafından ne zaman gönderildiğini gösterir.
