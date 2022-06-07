@@ -1,3 +1,5 @@
+--git
+
 --global : sistemdeki kullanıcı anlamına gelir.
 pwd : Mevcut dosya konumunu gösterir.
 ls : Mevcut dosya konumundaki dosyaları liste halinde gösterir.
@@ -13,4 +15,10 @@ rm -r -KlasörAdı- : Klasörün içinde bulunan dosyaları ve klasörü siler.
 mv : Dosyanın adını değiştirmek için dosya adını yazdıktan sonra yeni dosya adı yazılır. Dosyayı başka bir klasöre taşımak için ise dosya adından sonra klasör/ şeklinde klasör adı yazılır.
 checkout -- veya restore : Çalışma dizininde yapılan değişikliği geri almak için yapılır.
 checkout -commitpath- -- . : Eski versiyondaki tüm dosyaları getirir.
- 
+
+
+--github
+
+remote add : Github bağlantısının adını belirler.
+push -u -RepoAdı- master : Bütün dosyaları repoya gönderir.
+
