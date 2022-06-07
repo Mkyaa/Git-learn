@@ -10,3 +10,4 @@ diff : Dosyada yapılan değişiklikleri satır satır gösterir.
 diff ..staged : Staged area'ya gönderilen dosyaların git reposundaki dosyalar ile arasındaki farkları gösterir.
 rm -DosyaAdı- : Dosyayı silmek için commit etmeye hazır hale getirir.
 rm -r -KlasörAdı- : Klasörün içinde bulunan dosyaları ve klasörü siler.
+mv : Dosyanın adını değiştirmek için dosya adını yazdıktan sonra yeni dosya adı yazılır. Dosyayı başka bir klasöre taşımak için ise dosya adından sonra klasör/ şeklinde klasör adı yazılır.
