@@ -1,0 +1,11 @@
+gint init : Projeye git dosyası yükler
+git log : git reposuna gönderilen versiyonları gösterir
+git status : Dizinde yapılan değişiklikleri gösterir.
+git add . : Bütün dosyları staged area ya gönderir.
+git commit -m "Commit Adı" : git reposuna dosyları gönderir.
+git diff: Eğer dosyada bir değişiklik var ise olan değişiklikleri satır satır gösterir.
+git rm : Dosya silmek için kullanılır.
+git mv : mv'den ardından gelen dosya adından sonra eğer başka bir dosya adı var ise dosyanın adını değiştirir.
+
+Not : Dosya ekleme ve silme işleri staged areaya bilgi gönderir. Eğer git reposuna bunları bildirmek istersek ekledikten veya sildikten sonra mutlaka commit etmeliyiz.
+
