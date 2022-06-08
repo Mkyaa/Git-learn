@@ -9,3 +9,5 @@ git mv : mv'den ardından gelen dosya adından sonra eğer başka bir dosya adı
 
 Not : Dosya ekleme ve silme işleri staged areaya bilgi gönderir. Eğer git reposuna bunları bildirmek istersek ekledikten veya sildikten sonra mutlaka commit etmeliyiz.
 
+git restore : dosya üzerinde değişiklik olduysa geri alır.
+git restore --staged dosyaAdi : staged'a gönderilen değişikliği geri alır.
